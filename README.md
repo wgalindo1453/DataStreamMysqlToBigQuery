@@ -1,9 +1,9 @@
 # DataStreamMysqlToBigQuery
-<p align="center"><img src="https://i.imgur.com/ty3nHnj.png" alt="MySQL to Google BigQuery Logo" /></p>
+<p align="center"><img src="https://i.imgur.com/7lCeTLU.png" alt="MySQL to Google BigQuery Logo" /></p>
 
 <h1 align="center">DataStream MySQL to Google BigQuery</h1>
 
-<p align="center"><a href="https://drive.google.com/file/d/1PP7YQyYMlXOaL_j3vjssQGYXq7trtSoG/view?usp=sharing">Click here to view a brief description on how Datastream was utilized.</a></p>
+<p align="center"><a href="database-sample/HPMS.sql">Click here to view a brief description on how Datastream was utilized.</a></p>
 
 ## Table of Contents
 + [What you'll do](#what-youll-do)
@@ -15,7 +15,7 @@
 
 ## What you'll do
 
-+ Prepare a MySQL Cloud SQL instance using the Google Cloud Console
++ Prepare a MySQL RDS  instance from AWS and configure it for MySQL database
 
 + Create a GCS bucket to be used in replication
 
@@ -36,11 +36,16 @@
 + Deploy a Dataflow job to replicate data
 
 ## How it works
+<p align="center"><img src="https://i.imgur.com/NKYv3Zp.gif" alt="MySQL to Google BigQuery Logo" /></p>
 
+<p align="left"><img src="https://i.imgur.com/CBhoEVh.png" alt="MySQL to Google BigQuery Logo" /></p>
+Steps for Preparing MySQL database:
 
++ <p align="left"><a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_CreateDBInstance.html">Create RDS MySQL database instance from Amazon.</a></p>
 
-Steps for :
++ Create Schema with your data.<p align="left"><a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_CreateDBInstance.html"> -> Here is some test data already created if you prefer.</a></p>
 
++ <p align="left"><a href="https://cloud.google.com/datastream/docs/configure-your-source-mysql-database#rdsformysql">Configure your source MySQL database.</a></p>
 
 
 Final three steps:
