@@ -48,7 +48,21 @@ Steps for Preparing MySQL database:
 + <p align="left"><a href="https://cloud.google.com/datastream/docs/configure-your-source-mysql-database#rdsformysql">Configure your source MySQL database.</a></p>
 
 
-Final three steps:
+
+# Create a GCS bucket 
+Run the following to create a Cloud Storage bucket
+```
+gsutil mb gs://${BUCKET_NAME}
+```
+
+# Create Pub/Sub resources 
+Run the following to create a Pub/Sub topic and Pub/Sub subscription inside Cloud Shell console.
+Replace topic name  and BUCKET_NAME with yours.
+```
+gcloud pubsub topics create <topic name>
+gcloud pubsub subscriptions create datastream-subscription --topic=<topic name>
+gsutil notification create -f "json" -p "data/" -t "<topic name>" "gs://${BUCKET_NAME}"
+```
 
 
 
