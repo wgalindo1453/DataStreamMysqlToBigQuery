@@ -3,7 +3,7 @@
 
 <h1 align="center">DataStream MySQL to Google BigQuery</h1>
 
-<p align="center"><a href="https://drive.google.com/file/d/1PP7YQyYMlXOaL_j3vjssQGYXq7trtSoG/view?usp=sharing">Click here to view a brief description on how Datastream was utilized.</a></p>
+<p align="center"><a href="database-sample/HPMS.sql">Click here to view a brief description on how Datastream was utilized.</a></p>
 
 ## Table of Contents
 + [What you'll do](#what-youll-do)
@@ -147,6 +147,9 @@ The Dataflow job will replicate your data into the BigQuery dataset supplied. Vi
 
 ## JobGraph
 <p align="center"><img src="https://i.imgur.com/RloFs0K.png" alt="Dataflow Job Graph of example provided Database" /></p>
+
+## Export to Data Studio from BigQuery
+<p align="center"><img src="https://i.imgur.com/jHVJwCE.png" alt="DataStudio Visual" /></p>
 
 
 ## Credits
