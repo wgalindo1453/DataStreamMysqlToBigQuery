@@ -154,6 +154,8 @@ The Dataflow job will replicate your data into the BigQuery dataset supplied. Vi
 
 ## Credits
 
++ <p align="left"><a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_CreateDBInstance.html"> DatastreamToBigQuery</a></p>
++ <p align="left"><a href="https://cloud.google.com/datastream/docs/configure-your-source-mysql-database#rdsformysql"> Configure your source MySQL database</a></p>
 
 
 ## License
