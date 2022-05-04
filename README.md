@@ -9,7 +9,7 @@
 + [What you'll do](#what-youll-do)
 + [How it works](#how-it-works)
 + [Requirements](#requirements)
-+ [Usage](#usage)
++ [Job Graph](#JobGraph)
 + [Credits](#credits)
 + [License](#license)
 
@@ -34,7 +34,7 @@
 + Deploy a Dataflow job to replicate data
 
 ## How it works
-<p align="center"><img src="https://i.imgur.com/NKYv3Zp.gif" alt="MySQL to Google BigQuery Logo" /></p>
+<p align="center"><img src="https://i.imgur.com/QmHqOkX.gif" alt="MySQL to Google BigQuery Logo" /></p>
 
 <p align="left"><img src="https://i.imgur.com/CBhoEVh.png" alt="MySQL to Google BigQuery Logo" /></p>
 Steps for Preparing MySQL database:
@@ -125,11 +125,6 @@ inputFileFormat="avro"
 
 Tip: Create a cron job for keep syncing the tables using an interval like 15 minutes (respect the Load Jobs [quota policy](https://cloud.google.com/bigquery/quota-policy))
 
-# View the Data in BigQuery
-
-The Dataflow job will replicate your data into the BigQuery dataset supplied. View these tables in the BigQuery UI: Navigation Menu > BigQuery.
-<p align="center"><img src="https://i.imgur.com/TGIQ9ks.png" alt="Select MySQL for Source and Cloud Storage for Destination Type" /></p>
-
 ## Requirements
 
 Familiarity with standard Linux environments
@@ -143,8 +138,14 @@ Google Cloud Service and Software Tools
 + Google Cloud Pub/Sub API
 + Google Cloud Shell environment
 
-## Usage
 
+# View the Data in BigQuery
+
+The Dataflow job will replicate your data into the BigQuery dataset supplied. View these tables in the BigQuery UI: Navigation Menu > BigQuery.
+<p align="center"><img src="https://i.imgur.com/TGIQ9ks.png" alt="" /></p>
+
+## JobGraph
+<p align="center"><img src="https://i.imgur.com/RloFs0K.png" alt="Dataflow Job Graph of example provided Database" /></p>
 
 
 ## Credits
