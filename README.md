@@ -36,6 +36,19 @@
 ## How it works
 <p align="center"><img src="https://i.imgur.com/QmHqOkX.gif" alt="MySQL to Google BigQuery Logo" /></p>
 
+## Requirements
+
+Familiarity with standard Linux environments
+
+Familiarity with change data capture (CDC) concepts
+
+Google Cloud Service and Software Tools
++ Google Datastream API
++ Amazon RDS MySQL or Google Cloud SQL
++ Google Cloud Storage
++ Google Cloud Pub/Sub API
++ Google Cloud Shell environment
+
 <p align="left"><img src="https://i.imgur.com/CBhoEVh.png" alt="MySQL to Google BigQuery Logo" /></p>
 Steps for Preparing MySQL database:
 
@@ -125,18 +138,6 @@ inputFileFormat="avro"
 
 Tip: Create a cron job for keep syncing the tables using an interval like 15 minutes (respect the Load Jobs [quota policy](https://cloud.google.com/bigquery/quota-policy))
 
-## Requirements
-
-Familiarity with standard Linux environments
-
-Familiarity with change data capture (CDC) concepts
-
-Google Cloud Service and Software Tools
-+ Google Datastream API
-+ Amazon RDS MySQL or Google Cloud SQL
-+ Google Cloud Storage
-+ Google Cloud Pub/Sub API
-+ Google Cloud Shell environment
 
 
 # View the Data in BigQuery
