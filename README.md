@@ -1,7 +1,5 @@
-# DataStreamMysqlToBigQuery
+# DataStream MySQL to Google BigQuery
 <p align="center"><img src="https://i.imgur.com/7lCeTLU.png" alt="MySQL to Google BigQuery Logo" /></p>
-
-<h1 align="center">DataStream MySQL to Google BigQuery</h1>
 
 <p align="center"><a href="https://drive.google.com/file/d/1PP7YQyYMlXOaL_j3vjssQGYXq7trtSoG/view?usp=sharing">Click here to view a brief description on how Datastream was utilized.</a></p>
 
