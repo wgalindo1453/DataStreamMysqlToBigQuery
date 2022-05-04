@@ -3,7 +3,7 @@
 
 <h1 align="center">DataStream MySQL to Google BigQuery</h1>
 
-<p align="center"><a href="database-sample/HPMS.sql">Click here to view a brief description on how Datastream was utilized.</a></p>
+<p align="center"><a href="https://drive.google.com/file/d/1PP7YQyYMlXOaL_j3vjssQGYXq7trtSoG/view?usp=sharing">Click here to view a brief description on how Datastream was utilized.</a></p>
 
 ## Table of Contents
 + [What you'll do](#what-youll-do)
