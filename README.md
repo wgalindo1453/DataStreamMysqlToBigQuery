@@ -125,6 +125,11 @@ inputFileFormat="avro"
 
 Tip: Create a cron job for keep syncing the tables using an interval like 15 minutes (respect the Load Jobs [quota policy](https://cloud.google.com/bigquery/quota-policy))
 
+# View the Data in BigQuery
+
+The Dataflow job will replicate your data into the BigQuery dataset supplied. View these tables in the BigQuery UI: Navigation Menu > BigQuery.
+<p align="center"><img src="https://i.imgur.com/TGIQ9ks.png" alt="Select MySQL for Source and Cloud Storage for Destination Type" /></p>
+
 ## Requirements
 
 Familiarity with standard Linux environments
@@ -137,12 +142,6 @@ Google Cloud Service and Software Tools
 + Google Cloud Storage
 + Google Cloud Pub/Sub API
 + Google Cloud Shell environment
-
-
-# View the Data in BigQuery
-
-The Dataflow job will replicate your data into the BigQuery dataset supplied. View these tables in the BigQuery UI: Navigation Menu > BigQuery.
-<p align="center"><img src="https://i.imgur.com/TGIQ9ks.png" alt="Select MySQL for Source and Cloud Storage for Destination Type" /></p>
 
 ## Usage
 
