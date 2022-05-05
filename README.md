@@ -151,6 +151,7 @@ The Dataflow job will replicate your data into the BigQuery dataset supplied. Vi
 <p align="center"><img src="https://i.imgur.com/jHVJwCE.png" alt="DataStudio Visual" /></p>
 
 ## DemoVideo
+(NOTE:  Please use Chrome Browser for best quality and minimize video lagg)
 <p align="left"><a href="https://www.canva.com/design/DAE_xZI_SDc/m8KuYpuptODAfZ8v9AX0rQ/view?utm_content=DAE_xZI_SDc&utm_campaign=designshare&utm_medium=link&utm_source=recording_view">Click here to view the video.</a></p>
 
 ## Credits
