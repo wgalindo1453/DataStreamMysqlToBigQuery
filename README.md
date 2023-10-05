@@ -42,7 +42,7 @@ Familiarity with standard Linux environments
 Familiarity with change data capture (CDC) concepts
 
 Google Cloud Service and Software Tools
-+ Google Datastream API
++ Google Datastream API 
 + Amazon RDS MySQL or Google Cloud SQL
 + Google Cloud Storage
 + Google Cloud Pub/Sub API
